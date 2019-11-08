@@ -1,0 +1,258 @@
+/* Curiosidades CMS*/
+
+/* DIV RESPONSAVEL POR SEGURAR TODO O SITE*/
+#principal{
+    width: 1000px;
+    height: 1400px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+	background-color: #000;
+}
+
+
+/* CABEÇALHO*/
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#titulo{
+	width: 597px;
+	height: 197px;
+	background-color: darkred;
+	border-top-left-radius: 20px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	float: left;
+	line-height: 200px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 27px;
+	color: #000;
+}
+
+#logo{
+	width: 400px;
+	height: 197px;
+	margin-bottom: 3px;
+	
+	border-top-right-radius: 20px;
+	float: left;
+}
+#imagem-logo{
+	width: 400px;
+	height: 197px;
+	border-top-right-radius: 20px;
+}
+
+
+/*MENU*/
+nav{
+    width: 1000px;
+    height: 120px;
+    background-color: darkgoldenrod;
+}
+
+#menu{
+	width: 750px;
+	height: 120px;
+	float: left;
+}
+
+#cont-imagens{
+	width: 600px;
+	height: 80px;
+	margin: auto;
+}
+
+.caixinhas{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+	margin-left: 25px;
+}
+
+.imagem-caxinha{
+	width: 80px;
+	height: 80px;
+}
+
+
+#cont-rotulos{
+	width: 600px;
+	height: 40px;
+	margin: auto;
+	line-height: 40px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+.rotulos{
+	width: 145px;
+	height: 35px;
+	float: left;
+	margin-right: 5px;
+	background-color: darkred;
+	border-radius: 15px;
+    color: #000;
+	text-decoration:none;
+	
+}
+
+
+.rotulos:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#user{
+	width: 250px;
+	height: 120px;
+	float: left;
+}
+
+#bemVindo{
+	width: 250px;
+	height: 40px; 
+	line-height: 40px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+#logout{
+	width: 120px;
+	height: 35px;
+	float: left;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+	background-color: darkred;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #000;
+	text-decoration:none;
+}
+/*CORPO*/
+#main{
+    width: 1000px;
+    height: 1000px;
+    background-color: darkgoldenrod;
+}
+
+.conteiner1{
+	width: 100%;
+	height: 90px;
+	margin-top: 10px;
+	background-color: darkred;
+	text-align: center;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.conteiner{
+	width: 100%;
+	height: 880px;
+	padding-top: 10px;
+	margin-top: 10px;
+	background-color: darkred;
+	
+}
+
+
+#cad{
+    width: 320px;
+    height: 620px;
+    background-color: darkgoldenrod;
+    margin: auto;
+    border-radius: 15px;
+    float: left;
+    font-family: sans-serif;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+#title{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: #000;
+}
+
+.caixa{
+    width: 250px;
+	height: 11px;
+    margin-left: 30px; 
+    margin-top: 10px;
+	font-size: 10px;
+}
+
+
+#salvar{
+    width: 100px;
+	height: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+#tabela2{
+    width: 648px;
+    height: 170px;
+    background-color: #fff;
+    margin: auto;
+    border-radius:5px 5px 5px 5px;
+	float: left;
+    overflow-y: scroll;
+    
+}
+
+#titulo2{
+    width: 648px;
+    height: 50px;
+    background-color: darkred;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.linha1{
+    height: 50px;
+}
+
+.linha2{
+    height: 70px;
+}
+
+.td{
+    width: 108px;
+    text-align: center;
+}
+
+
+/*RODA PÉ*/
+footer{
+    width: 1000px;
+    height: 77px;
+	margin-top: 3px;
+    background-color: darkgoldenrod;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+		
+	text-align: center;
+	line-height: 80px;
+	font-family: sans-serif;
+	font-size: 15px;
+}

@@ -1,0 +1,304 @@
+/* Produtos*/
+
+/* DIV RESPONSAVEL POR SEGURAR TODO O SITE*/
+#principal{
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+	background-color: #000;
+}
+
+
+/* CABEÇALHO*/
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#titulo{
+	width: 597px;
+	height: 197px;
+	background-color: darkred;
+	border-top-left-radius: 20px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	float: left;
+	line-height: 200px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 27px;
+	color: #000;
+}
+
+#logo{
+	width: 400px;
+	height: 197px;
+	margin-bottom: 3px;
+	
+	border-top-right-radius: 20px;
+	float: left;
+}
+#imagem-logo{
+	width: 400px;
+	height: 197px;
+	border-top-right-radius: 20px;
+}
+
+
+/*MENU*/
+nav{
+    width: 1000px;
+    height: 120px;
+    background-color: darkgoldenrod;
+}
+
+#menu{
+	width: 750px;
+	height: 120px;
+	float: left;
+}
+
+#cont-imagens{
+	width: 600px;
+	height: 80px;
+	margin: auto;
+}
+
+.caixinhas{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+	margin-left: 25px;
+}
+
+.imagem-caxinha{
+	width: 80px;
+	height: 80px;
+}
+
+
+#cont-rotulos{
+	width: 600px;
+	height: 40px;
+	margin: auto;
+	line-height: 40px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+.rotulos{
+	width: 145px;
+	height: 35px;
+	float: left;
+	margin-right: 5px;
+	background-color: darkred;
+	border-radius: 15px;
+    color: #000;
+	text-decoration:none;
+	
+}
+
+
+.rotulos:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#user{
+	width: 250px;
+	height: 120px;
+	float: left;
+}
+
+#bemVindo{
+	width: 250px;
+	height: 40px; 
+	line-height: 40px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+#logout{
+	width: 120px;
+	height: 35px;
+	float: left;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+	background-color: darkred;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #000;
+	text-decoration:none;
+}
+/*CORPO*/
+#main{
+    width: 1000px;
+    height: 500px;
+    background-color: darkred;
+}
+
+.conteiner1{
+	width: 100%;
+	height: 70px;
+	margin-top: 5px;
+	background-color: darkgoldenrod;
+	text-align: center;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.conteiner{
+	width: 100%;
+	height: 420px;
+	padding-top: 10px;
+	margin-top: 5px;
+	background-color: darkred;
+	
+}
+
+#cad{
+    width: 250px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    margin: auto;
+    border-radius: 15px;
+    font-family: sans-serif;
+    float: left;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #000;
+}
+
+#cad:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.texto{
+	margin-top: 60px;
+}
+
+#cad2{
+    width: 250px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    margin: auto;
+    border-radius: 15px;
+    font-family: sans-serif;
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 200px;
+    color: #000;
+}
+
+#cad2:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.caixa{
+    width: 250px;
+    margin-left: 100px; 
+}
+
+#radio{
+    width: 45px;
+}
+
+#foto{
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+
+#salvar{
+    width: 100px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+#tabela2{
+    width: 450px;
+    height: 100px;
+    background-color: #fff;
+    border-radius:5px 5px 5px 5px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 40px;
+    
+}
+
+
+#tabela3{
+    width: 450px;
+    height: 100px;
+    background-color: #fff;
+    border-radius:5px 5px 5px 5px;
+    float: left;
+    
+}
+
+#titulo2{
+    background-color:darkred;
+	font-family:verdana;
+	font-size:20px;
+	text-align:center;
+	height:50px;
+	color:#fff;
+	border-radius:10px 10px 10px 10px;
+}
+
+
+.td1{
+    width: 30px;
+}
+
+.td2{
+    width: 45px;
+}
+
+
+
+/*RODA PÉ*/
+footer{
+    width: 1000px;
+    height: 77px;
+	margin-top: 3px;
+    background-color: darkgoldenrod;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+		
+	text-align: center;
+	line-height: 80px;
+	font-family: sans-serif;
+	font-size: 15px;
+}

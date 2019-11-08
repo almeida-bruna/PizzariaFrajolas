@@ -1,0 +1,299 @@
+/*css*/
+/*usuario*/
+/* DIV RESPONSAVEL POR SEGURAR TODO O SITE*/
+#principal{
+    width: 1000px;
+    height: 1500px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+	background-color: #000;
+}
+
+
+/* CABEÇALHO*/
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#titulo{
+	width: 597px;
+	height: 197px;
+	background-color: darkred;
+	border-top-left-radius: 20px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	float: left;
+	line-height: 200px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 27px;
+	color: #000;
+}
+
+#logo{
+	width: 400px;
+	height: 197px;
+	margin-bottom: 3px;
+	
+	border-top-right-radius: 20px;
+	float: left;
+}
+#imagem-logo{
+	width: 400px;
+	height: 197px;
+	border-top-right-radius: 20px;
+}
+
+
+/*MENU*/
+nav{
+    width: 1000px;
+    height: 120px;
+    background-color: darkgoldenrod;
+}
+
+#menu{
+	width: 750px;
+	height: 120px;
+	float: left;
+}
+
+#cont-imagens{
+	width: 600px;
+	height: 80px;
+	margin: auto;
+}
+
+.caixinhas{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+	margin-left: 25px;
+}
+
+.imagem-caxinha{
+	width: 80px;
+	height: 80px;
+}
+
+
+#cont-rotulos{
+	width: 600px;
+	height: 40px;
+	margin: auto;
+	line-height: 40px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+.rotulos{
+	width: 145px;
+	height: 35px;
+	float: left;
+	margin-right: 5px;
+	background-color: darkred;
+	border-radius: 15px;
+    color: #000;
+	
+}
+
+.rotulos:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#user{
+	width: 250px;
+	height: 120px;
+	float: left;
+}
+
+#bemVindo{
+	width: 250px;
+	height: 40px; 
+	line-height: 40px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+#logout{
+	width: 120px;
+	height: 35px;
+	float: left;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+	background-color: darkred;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #000;
+	text-decoration:none;
+}
+/*CORPO*/
+#main{
+    width: 1000px;
+    height: 1090px;
+    background-color: darkred;
+	padding-top: 10px;
+}
+
+#botaoNivel{
+    width: 250px;
+    height: 60px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 60px;
+    color: black;
+}
+
+#botaoNivel:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform:  scale(1.3);
+    transform: scale(1.3);
+    background-color: darkgoldenrod;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*RODA PÉ*/
+footer{
+    width: 1000px;
+    height: 80px;
+	margin-top: 3px;
+    background-color: darkgoldenrod;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+		
+	text-align: center;
+	line-height: 80px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+
+/*CRUD*/
+
+#cadastro {
+	width:600px;
+	height:380px;
+	background-color:#FFFFFF;
+	margin: auto;
+    margin-top: 250px;
+    
+	
+}
+
+#tblcadastro {
+	width:600px;
+    height: 380px;
+	margin: auto;
+	border:solid 2px;
+	border-color:#C0C0C0;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:10px 10px 10px #ccc;
+	
+}
+
+.tblcadastro_td{
+	width:250px;
+	border:solid 1px;
+	border-color:#CCCCCC;
+	font-family:verdana;
+	font-size:12px;
+	font-weight:bold;
+	height:40px;
+	text-align:center;
+	border-color:#DCDCDC;
+	background-color:#E8E8E8;
+    
+}
+
+
+
+#titulo2{
+    background-color: darkgoldenrod;
+	font-family:verdana;
+	font-size:20px;
+	text-align:center;
+	height:50px;
+	color: #fff;
+	border-radius:5px 5px 5px 5px;
+}
+.titulo_tabela {
+	background-color: darkred;
+	font-family:verdana;
+	font-size:20px;
+	text-align:center;
+	height:50px;
+	color:#ffffff;
+	border-radius:5px 5px 5px 5px;
+
+
+}
+
+.titulo3 {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:center;
+	color: #000;
+	font-weight:bold;
+    
+    border: solid 1px;
+
+}
+
+#tabela2{
+    width: 900px;
+    height: 120px;
+    margin: auto;
+	background-color: #fff;
+}
+
+#seguratabela{
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    overflow: auto;
+}
+
+.campos{
+    width: 300px;
+    
+}
+
+.botao{
+    width: 100px;
+}
+
+#nivel{
+    width: 300px;
+}
+
+
+
+
+

@@ -1,0 +1,378 @@
+body{
+    background-image: url(../imagens/back.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkred;
+    border: solid 1px bisque;
+}
+
+main{
+    width: 1200px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color:skyblue;*/
+}
+
+#segura_cabecalho{
+    width: 1600px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#logo{
+    background-color: black;
+    width: 200px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+   
+    float: left;
+    
+}
+
+#caixa2{
+    width: 900px;
+    height: 50px;
+    margin-top: 110px;
+    margin-right: 10px;
+    margin-left: 40px;
+	background-color: aqua;
+    float: left;
+    
+}
+
+
+
+#slide{
+    width: 1200px;
+    height: 100px;
+    overflow: hidden;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 5px darkred;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+    
+}
+
+#anos{
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 5px darkred;
+}
+
+.botoes{
+    width: 50px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+    font-weight: bold;
+}
+
+.botoes a{
+    width: 50px;
+    height: 50px;
+    font-size: 40pt;
+    color: #000;
+    text-decoration: none;
+}
+
+#imagens{
+    width: 1100px;
+    height: 400px;
+    float: left;
+}
+
+#slide ul{
+    width: 1100px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+    list-style-type: none;
+    position: relative;
+}
+
+#slide ul li{
+    width: 1100px;
+    height: 400px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+#produtos{
+    width: 1200px;
+    height: 700px;
+    background-color: darkred;
+}
+
+
+
+#redeSociais{
+   
+	width:100px;
+	height:50px;
+	position:fixed;
+	margin-left:1210px;
+	/*margin-top:400px;*/
+
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.imgs_redes{
+    float: left;
+}
+
+.link_rede_social{
+    width: 50px;
+    height: 50px;
+    background-color: #314A7F;
+    float: left;
+}
+
+.menu{
+    width: 900px;
+    height: 50px;
+    margin-top: 110px;
+    margin-right: 10px;
+    margin-left: 40px;
+	
+    float: left;
+    
+}
+
+.item_menu{
+    width: 115px;
+    height: 45px;
+    background-color:darkgoldenrod;
+    float: left;
+    margin-right: 5px;
+	
+	color:#000000;
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    border-radius: 15px;
+    
+}
+
+.item_menu:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+h4{
+	color: #000000;
+	margin-top: 12px;
+}
+
+.imag{
+    width: 305px;
+    height: 280px;
+    float: left;
+}
+
+#btnFaleConosco{
+    width: 130px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    border-radius:5px;
+    margin-left: 550px;
+    margin-top: 50px;
+    
+}
+
+#curiosidades{
+    width: 450px;
+    height: 560px;
+    background-color: darkred;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+    text-align: justify;
+    font-family: arial;
+    font-size: 14px;
+}
+  
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                height: 500px;
+                width: 450px;
+                /*border: solid #A9E2F3 3px;*/
+            }
+            
+            #contatos{
+                width: 670px;
+                height: 30px;
+                text-align: center;
+                font-family: Arial;
+                font-size: 25px;
+                background-color: darkred;
+                color: black;
+                font-weight: bold;
+            }
+            
+            .coluna1{
+                background-color:bisque;
+                color: black;
+                font-family: Arial;
+                font-size: 16px;
+            }
+            
+            .coluna2{
+                background-color:bisque;
+                color: black;
+                font-family: Arial;
+                font-size: 16px;
+            }
+            
+            #btns{
+                text-align: center;
+            }
+            
+            .caixascima{
+                width: 40px;
+                height: 20px;
+                text-align: center;
+                background-color: bisque;
+            }
+            
+            .caixasbaixo{
+                width: 260px;
+                height: 20px;
+                background-color: white;
+                border: solid bisque 3px;
+                text-align: center;
+            }
+            
+            #texto{
+                height:40px;
+                text-align: center;
+                font-family: Arial;
+                font-size: 25px;
+                background-color: bisque;
+                color: white;
+            }
+            
+            #tbl2{
+                height: 130px;
+                width: 1300px;
+            }
+            
+            #table1{
+                width: 1170px;
+                height:60px;
+                font-family: Arial;
+                font-size: 25px;
+                background-color: darkred;
+                color: white;
+                float: left;
+                margin-left: -400px;
+            }
+
+footer{
+    background-color: darkred;
+    width: 1200px;
+    height: 100px;
+}
+
+#roda{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-right: 550px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.ca1{
+    width: 140px;
+    height: 40px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 2,5px;
+    margin-left: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.ca2{
+    width: 140px;
+    height: 28px;
+    border-radius: 15px;
+    background-color:darkgoldenrod;
+	
+}
+
+.ca2:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.ca3{
+    width: 140px;
+    height: 28px;
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: darkgoldenrod;
+	
+}
+
+.ca3:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.semLinha{
+	text-decoration:none;
+	color: black;
+}
+	
+#roda1{
+    width: 300px;
+    height: 35px;
+    float: left;
+    margin-top: 60px;
+    font-family: cursive;
+    font-size: 10px;
+    text-align: center; 
+}
